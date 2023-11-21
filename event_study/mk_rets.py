@@ -4,7 +4,7 @@ Utilities to calculate stock and market returns
 """
 import pandas as pd
 
-import event_study.z5368359_event_study.config as cfg
+import z5368359_event_study.event_study.config as cfg
 
 # Function to read prices and calculate returns
 def mk_ret_df(tic):

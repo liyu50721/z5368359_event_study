@@ -5,7 +5,7 @@ Utilities to create events from recommendations
 
 import pandas as pd
 
-import event_study.z5368359_event_study.config as cfg
+import z5368359_event_study.event_study.config as cfg
 
 
 #   Functions to process recommendations into events

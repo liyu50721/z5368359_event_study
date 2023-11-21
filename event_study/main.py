@@ -3,7 +3,7 @@
 Main module for the event_study package. Will run the event study for a single
 stock.
 """
-from event_study.z5368359_event_study import mk_events, mk_rets, mk_cars, test_hypo, download
+from z5368359_event_study.event_study import mk_events, mk_rets, mk_cars, test_hypo, download
 
 
 def main(tic, update_csv=True):
